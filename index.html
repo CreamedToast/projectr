@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div align=center>
+	<div class=main>
+		<div align=center class=core>
+            <h2><span round=true class=core.temp></span>°C</h2>
+            
+            <h1><span class=core.water_display></span>%</h1>
+           
+            <button onClick="core.addwater(0.1)">
+                +10% Water
+            </button>
+            <button onClick="core.addwater(-0.1)">
+                -10% Water
+            </button><br>
+            <button onClick="core.addwater(0.01)">
+                +1% Water
+            </button>
+            <button onClick="core.addwater(-0.01)">
+                -1% Water
+            </button>
+            <h1><span round=true class=core.power></span>MW</h1>
+        </div>
+        <div align=center class=job>
+            <div width=50%>
+            <h2 style="color:red">
+                <span class=job.message></span><br>
+            </h2>
+            </div>
+            <div width=50%>
+            <h3>
+                Reputation: <span round=true class=job.reputation></span>
+            </h3>
+            </div>
+            <div style="width:400px;height:10px;background:gray; text-align:left" id=bar class=job.reputation_bar>
+                <div style="width:300px;height:10px;background:blue">
+                
+            	</div>
+            </div>
+        </div>
+        <div align=center class=water>
+            <div class=watertank>
+                <div class=tankdisplay>
+                	
+            	</div>
+            </div>
+            <h2>
+                <span class=water.liters_display></span>L
+            </h2>
+            <button onClick="water.reset()">
+                Refill Tank
+            </button>
+        </div>
+        
+	</div>
+</div>
+<script src=noise.js></script>
+<script src=game.js></script>
+
+<script>
+
+    setup();
+
+</script>

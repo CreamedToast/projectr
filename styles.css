@@ -1,0 +1,108 @@
+body {
+    position: relative;
+    text-align:center;
+    display:block;
+}
+
+button {
+    background:darkgray;
+    border:0px;
+}
+
+h1 {
+    font-size:22px;
+    margin:5px
+}
+h2 {
+    font-size:30px;
+    margin:5px
+}
+h3 {
+    font-size:40px;
+    margin:5px;
+}
+
+.main {
+    width:1000px;
+    height:500px;
+    background:color;
+}
+
+
+.job {
+    height:110px;
+    width:100%;
+    z-index: 1;
+    position: relative;
+    left:0;
+    top:475px;
+	
+    background-color: white;
+    color: gray;
+
+    padding: 0;
+    
+}
+
+large {
+        font-size:40px;
+    }
+
+.core {
+    height:140px;
+    width:300px;
+    z-index: 1;
+    position: relative;
+    left:0;
+    top:280px;
+	
+    background-color: gray;
+    color: white;
+
+    padding: 0;
+    
+}
+
+.water {
+    height:200px;
+    width:150px;
+    z-index: 1;
+    position: relative;
+    left:230px;
+    top:0px;
+    display:none;
+	
+    background-color: gray;
+    color: white;
+
+    padding: 0;
+    
+}
+
+.watertank {
+    height:100px;
+    width:100px;
+    z-index: 1;
+    position: relative;
+    left:0px;
+    top:10px;
+	
+    background-color: lightgray;
+    color: white;
+
+    padding: 0;
+}
+
+.tankdisplay {
+    height:90px;
+    width:100px;
+    z-index: 1;
+    position: relative;
+    left:0px;
+    top:10px;
+	
+    background-color: blue;
+    color: white;
+
+    padding: 0;
+}
